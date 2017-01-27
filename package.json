@@ -1,0 +1,70 @@
+{
+    "author": "Edward Dam",
+    "dependencies": {
+        "pebble-clay": "^1.0.0",
+        "pebblejs": "^1.0.0"
+    },
+    "keywords": [],
+    "name": "football-v1.0",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Football v1.0",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "message_keys"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/football_icon",
+                    "name": "FOOTBALL_ICON",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/splash.png",
+                    "name": "SPLASH",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/menu_icon.png",
+                    "menuIcon": true,
+                    "name": "MENU_ICON",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "0313c165-4fd1-43ad-b8b9-de6d9126175e",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
