@@ -7,6 +7,9 @@
 ###screenshots
 
 ![basalt.png](/assets/basalt.png)
+![basalt-results.png](/assets/basalt-results.png)
+![basalt-fixtures.png](/assets/basalt-fixtures.png)
+![basalt-match.png](/assets/basalt-match.png)
 
 ###banner
 
