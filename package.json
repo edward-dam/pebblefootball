@@ -19,7 +19,7 @@
         "resources": {
             "media": [
                 {
-                    "file": "images/football_icon",
+                    "file": "images/football_icon.png",
                     "name": "FOOTBALL_ICON",
                     "targetPlatforms": [
                         "aplite",
