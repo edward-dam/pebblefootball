@@ -1,23 +1,24 @@
 # pebblefootball
-###icons
+### icons
 
 ![icon-144.png](/assets/icon-144.png)
 ![icon-48.png](/assets/icon-48.png)
 
-###screenshots
+### screenshots
 
 ![basalt.png](/assets/basalt.png)
 ![basalt-results.png](/assets/basalt-results.png)
 ![basalt-fixtures.png](/assets/basalt-fixtures.png)
 ![basalt-match.png](/assets/basalt-match.png)
 
-###banner
+### banner
 
 ![banner.png](/assets/banner.png)
 
-###app store
+### app store
 
 https://apps.getpebble.com/applications/588b472493254a93d0000248
 
-###description
+### description
+
 Check the latest premier league scores.
