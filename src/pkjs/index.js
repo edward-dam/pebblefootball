@@ -77,7 +77,7 @@ mainWind.on('click', 'down', function(e) {
   downText.position(position(-5));
   downHead.font(fontMedium);
   downText.font(fontSmall);
-  downHead.text('Football v1.0');
+  downHead.text('Football v1.1');
   downText.text('by Edward Dam');
   downWind.add(downHead);
   downWind.add(downText);
@@ -106,7 +106,9 @@ mainWind.on('click', 'select', function(e) {
     var date = day + '/' + month + ' @' + time;
     var homeTeam = apidata[i].homeTeamName;
     var awayTeam = apidata[i].awayTeamName;
-    if ( homeTeam === "West Ham United FC") {
+    if ( homeTeam === "AFC Bournemouth") {
+      homeTeam = "BOU";
+    } else if ( homeTeam === "West Ham United FC") {
       homeTeam = "WHU";
     } else if ( homeTeam === "West Bromwich Albion FC") {
       homeTeam = "WBA";
@@ -117,7 +119,9 @@ mainWind.on('click', 'select', function(e) {
     } else {
       homeTeam = homeTeam.substr(0, 3).toUpperCase();
     }
-    if ( awayTeam === "West Ham United FC") {
+    if ( awayTeam === "AFC Bournemouth") {
+      awayTeam = "BOU";
+    } else if ( awayTeam === "West Ham United FC") {
       awayTeam = "WHU";
     } else if ( awayTeam === "West Bromwich Albion FC") {
       awayTeam = "WBA";
@@ -171,7 +175,7 @@ mainWind.on('click', 'select', function(e) {
 
 // functions
 function collectmatchdayweek(callback) {
-  var url = 'http://api.football-data.org/v1/competitions/426';
+  var url = 'http://api.football-data.org/v1/competitions/445';
   ajax({ url: url, headers: { 'X-Auth-Token': token }, type: 'json' },
     function(api){
       matchDay = api.currentMatchday;
@@ -182,7 +186,7 @@ function collectmatchdayweek(callback) {
 }
 
 function collectapidata() {
-  var url = 'http://api.football-data.org/v1/competitions/426/fixtures';
+  var url = 'http://api.football-data.org/v1/competitions/445/fixtures';
   ajax({ url: url, headers: { 'X-Auth-Token': token }, type: 'json' },
     function(api){
       var apidata = api.fixtures.filter(function(val, index, array) {
